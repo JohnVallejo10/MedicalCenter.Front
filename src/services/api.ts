@@ -2,7 +2,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://localhost:7188/api',
+  baseURL: 'https://medicalcenter-api-d5aefkhqgzdbbzb4.canadacentral-01.azurewebsites.net/api',
 })
 
 // ✅ Interceptor de Solicitud
